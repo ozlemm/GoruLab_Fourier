@@ -2,7 +2,7 @@
 %
 %
 function data = extract_features(bw,dbg)
-    bw = bw(1:40,:);
+    bw = bw(1:40,:); %% deneme
     
     dis_kontur = edge(bw,'sobel');
     
